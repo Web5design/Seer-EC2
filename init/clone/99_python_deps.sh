@@ -1,9 +1,8 @@
 cd src
-ln -s ../../../simplecv/simplecv/SimpleCV.py cortex/lib/python2.6/SimpleCV.py
-cp -r cvblob/contrib/cvblob-python/cvblob cortex/lib/python2.6/
+cd simplecv
+python setup.py install
+cd ..
 cp -r zxing-1.6/python-zxing/zxing.py cortex/lib/python2.6/
-cd cortex
-source bin/activate
-easy_install redis
-easy_install nose
-cd ../..
+pip install python-pymongo 
+pip install mongoengine
+pip install cherrypy

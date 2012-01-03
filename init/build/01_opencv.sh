@@ -1,8 +1,8 @@
 cd src
-wget http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/2.2/OpenCV-2.2.0.tar.bz2
-bunzip2 OpenCV-2.2.0.tar.bz2
-tar xvf OpenCV-2.2.0.tar
-cd OpenCV-2.2.0
+wget http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/2.3.1/OpenCV-2.3.1a.tar.bz2 
+bunzip2 OpenCV-2.3.1a.tar.bz2
+tar xvf OpenCV-2.3.1a.tar
+cd OpenCV-2.3.1a
 mkdir build
 cd build
 cmake -D CMAKE_BUILD_TYPE=RELEASE -D BUILD_PYTHON_SUPPORT=ON -D WITH_TBB=ON -D CMAKE_INSTALL_PREFIX=/usr ..

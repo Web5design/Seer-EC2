@@ -1,3 +1,3 @@
 cd src
-git clone git://git.code.sf.net/p/simplecv/git.git simplecv
+git clone git@github.com:ingenuitas/SimpleCV.git simplecv
 cd ..
