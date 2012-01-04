@@ -1,5 +1,4 @@
-Cortex-EC2 is a set of shell scripts for managing developer instances
-of the cortex system on Amazon's Elastic Cloud Computing (EC2) environment.
+Seer-EC2 helps manage Seersystem on Amazon's Elastic Cloud Computing (EC2) environment.
 ----------------------------------------------------------------------------
 
 [Setup Amazon Web Server Instance]
@@ -42,9 +41,9 @@ Once you have connected to your instance via SSH:
 
 1. sudo su - (login as root)
 2. apt-get install -y git
-2. git clone git://github.com/oostendo/cortex-ec2.git 
-3. ./cortex-ec2/bin/setup_cortex.sh
-4. ./cortex-ec2/bin/start_services.sh
+2. git clone git://github.com/ingenuitas/Seer-EC2.git 
+3. ./Seer-EC2/bin/setup_cortex.sh
+4. ./Seer-EC2/bin/start_services.sh
 5. Your sources are in /root/src/cortex
 
 
