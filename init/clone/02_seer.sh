@@ -1,3 +1,3 @@
 cd src 
-git clone git@github.com:ingenuitas/SimpleSeer.git 
+git clone https://github.com/ingenuitas/SimpleSeer 
 cd ../..
