@@ -6,3 +6,6 @@ cp -r zxing-1.6/python-zxing/zxing.py cortex/lib/python2.6/
 pip install pymongo 
 pip install mongoengine
 pip install cherrypy
+pip install ipython==0.10.2
+pip install redis
+
