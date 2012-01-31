@@ -1,6 +1,16 @@
 Seer-EC2 helps manage Seersystem on Amazon's Elastic Cloud Computing (EC2) environment.
 ----------------------------------------------------------------------------
 
+TODO
+- have simplecv and simpleseer as submodules
+- install python requirement from the pip.requirements
+- move start/stop stuff to supervizor
+- add google chrome to deps
+- add kiosk mode where chrome starts as window manager
+
+
+
+
 [Setup Amazon Web Server Instance]
 
 Before you can use these scripts, you should initialize an EC2 environment by
